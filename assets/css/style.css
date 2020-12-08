@@ -1,0 +1,134 @@
+.header a, a:hover {
+	color: #2ee59d;
+	text-decoration: none;
+}
+
+.header h1 {
+	letter-spacing: 15px;
+	font-size: 300%;
+}
+
+.header p {
+	color: white !important;
+	font-size: 90%;
+	letter-spacing: 3px;
+}
+
+h2{
+	text-align: center;
+	
+}
+
+.lessons{
+	color: #2EE59D;
+}
+
+body {background:#222}
+.buttons{
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #fff;
+  background: rgb(57, 57, 66);
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  transition: .9s;
+  
+}
+.buttons:hover {
+  background: #2EE59D;
+  box-shadow: 0 15px 20px rgba(46,229,157,.4);
+  color: white;
+  transform: translateY(-7px);
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+	background-color:  #2EE59D;
+	box-shadow: 0 15px 20px rgba(46,229,157,.4);
+	transition: .9s;
+
+}
+
+.nav-pills>li>a {
+	color: #fff; 
+	 transition: .9s;
+
+
+}
+
+.nav-pills>li>a:hover {
+	background: #2EE59D;
+	box-shadow: 0 15px 20px rgba(46,229,157,.4);
+	color: white;
+	transform: translateY(-7px);}
+
+
+.navbar-inverse {
+	padding: 1%;
+	transition: .9s;
+
+}
+
+
+@media (max-width: 767px) {
+	.nav-pills>li {
+		float: none;
+		transition: .9s;
+
+	}
+
+	
+	.nav-pills {
+		text-align: center;
+	}
+
+	.header h1 { 
+	    font-size: 280%;
+	    letter-spacing: 5px;
+	}
+
+	.header {
+		text-align: center;
+	}
+} 
+
+
+.clear {
+	clear: both;
+	height: 63px;
+}
+
+.wrapper {
+	min-height: 100%;
+}
+
+html, body {
+	height: 100%;
+}
+
+footer {
+	color: #666;
+	background: #222;
+	padding: 17px 0 18px 0;
+	border-top: 1px solid #000;
+}
+
+footer a {
+	color: #999;
+}
+
+footer a:hover {
+	color: #efefef;
+}
